@@ -1,0 +1,106 @@
+/* colours and fonts*/
+
+body {
+	background: linear-gradient(-65deg, #1b0154 30%, #aa1743);
+	color: rgb(255 255 255);
+	font-family: 'Abhaya Libre', serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1	{
+	color: rgb(221, 77, 120);
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+}
+
+h2	{
+	color: rgb(232, 172, 9, .8);
+	font-size: 20px;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	
+}
+	
+a:hover {
+	color: white;
+	background-color: rgb(27, 1, 84, .4);
+	font-size: 22px;
+}
+
+.btn-orange {
+	background-color: rgb(232, 172, 9, .8);
+	padding: 10px 30px;
+}
+
+.container {
+	width: 500px;
+	margin: 0pc auto;
+}
+
+#profile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.cards {
+	padding: 30px;
+	margin: 20px 0px;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(230,230,230,.2);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 25px;
+	color: rgb(80, 50, 145);
+}
+
+.list-inline i:hover {
+	font-size: 26px;
+}
+
+#introduction p 	{
+	margin: 30px 0px;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px
+		font-size:18px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+		font-size:18px;
+	}
+}
